@@ -1,0 +1,34 @@
+/* image should be background-size: 175% for mobile;
+    and background-size: cover; for greater than 1080 x 864
+    in between i have no clue - around 150% i guess
+*/
+
+body {
+	text-align: center;
+	color: black;
+	font-family: helvetica;
+	background-image: url('../images/rocks.jpg');
+	background-size: cover;
+}
+h1 {
+	font-family: 'Righteous', cursive;
+}
+.content {
+	display: block;
+    background-color: rgba(255,255,255, 0.5);
+    position: fixed;
+    z-index: 1;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    margin: auto;
+    width:75%;
+    height:75%;
+    overflow:auto;
+}
+.self {
+	border-radius: 100%;
+	width: 25%;
+	margin-top: 10px;
+}
