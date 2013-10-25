@@ -7,11 +7,12 @@ body {
 	text-align: center;
 	color: black;
 	font-family: helvetica;
-/*	background-image: url('../images/rocks.jpg');
-	background-size: contain;*/
 }
 h1 {
 	font-family: 'Righteous', cursive;
+}
+h2 {
+    font-size: 20px;
 }
 .content {
 	display: block;
@@ -26,11 +27,11 @@ h1 {
     width:75%;
     height:75%;
     overflow:auto;
-    min-height: 200px;
+    min-height: 300px;
 }
 .self {
 	border-radius: 100%;
-	width: 25%;
+	width: 150px;
 	margin-top: 10px;
 }
 ul {
@@ -46,4 +47,7 @@ i {
 li {
     display: inline;
     margin: 10px;
+}
+.social {
+    margin-top: 50px;
 }
