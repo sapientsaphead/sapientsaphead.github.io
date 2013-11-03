@@ -1,1 +1,1 @@
- $.backstretch("images/rocks_original.jpg");
+ $.backstretch("images/rocks.jpg");
