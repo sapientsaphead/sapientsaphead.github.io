@@ -32,7 +32,7 @@ h2 {
 .self {
 	border-radius: 100%;
 	width: 150px;
-	margin-top: 10px;
+	margin-top: 75px;
 }
 ul {
     list-style-type: none;
@@ -43,7 +43,7 @@ i {
 }
 li {
     display: inline;
-    margin: 10px;
+    margin: 20px;
 }
 .social {
     position: absolute;
@@ -51,6 +51,7 @@ li {
     right: 0;
     left: 0;
 }
+
 @media screen and (max-width: 450px) {
     h1 {
         font-size: 22px;
@@ -60,5 +61,9 @@ li {
     }
     .self {
         width: 100px;
+        margin-top: 25px;
+    }
+    li {
+        margin: 10px;
     }
 }
