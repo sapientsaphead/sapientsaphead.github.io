@@ -1,0 +1,43 @@
+@font-face {
+    font-family:'ChunkFiveRegular';
+    src:url('fonts/Chunkfive-webfont.eot');
+    src:url('fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Chunkfive-webfont.woff') format('woff'),
+        url('fonts/Chunkfive-webfont.ttf') format('truetype'),
+        url('fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+    text-rendering:optimizeLegibility
+}
+body {
+	text-align: center;
+	color: white;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.content {
+	display: block;
+    position: fixed;
+    z-index: 1;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    margin: auto;
+    width:75%;
+    height:75%;
+    overflow:auto;
+    min-height: 300px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.line-divider {
+    margin-top: 10%;
+}

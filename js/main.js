@@ -1,9 +1,12 @@
-$.backstretch("images/rocks.jpg");
-
+$.backstretch("images/welcome.jpg");
 
 
 $('#twitter').on('click', function() {
   ga('send', 'event', 'twitter', 'click', 'social-buttons');
+});
+
+$('#facebook').on('click', function() {
+  ga('send', 'event', 'facebook', 'click', 'social-buttons');
 });
 
 $('#pinterest').on('click', function() {
